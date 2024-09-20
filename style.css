@@ -1,0 +1,68 @@
+body{
+    background-image:url(https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+}
+.loginform{
+    width: 300px;
+    border: 1px white solid;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+    padding: 30px;
+    margin: 200px auto;
+    border-radius: 8px;
+   
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 10px;
+}
+.email{
+    height: 15px;
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid  whitesmoke;
+}
+.password{
+    height: 15px;
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid  whitesmoke;
+}
+input::placeholder{
+    color: white;
+}
+.merging{
+    display: inline-block;
+    margin: 10px;
+}
+
+.merging a{
+    color: white;
+    margin-left: 35px;
+}
+
+.loginbutton{
+    width: 275px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+    border: 0px;
+    background-color:white;
+    color: rgb(3, 3, 45);
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.registerlink{
+    text-align: center;
+}
+.registerlink a{
+    color: white;
+}
